@@ -41,8 +41,10 @@ using namespace as;
 
 // define all device properties
 const struct DeviceInfo PROGMEM devinfo = {
-  {0xB4, 0xB0, 0xF},       // Device ID
-  "HB91706977",           // Device Serial
+  {0x4A, 0xDE, 0x8E},       // Device ID
+  "HB96868549",           // Device Serial
+//  {0xB4, 0xB0, 0xF},       // Device ID
+//  "HB91706977",           // Device Serial
   {0x00,0x4a},              // Device Model
   0x16,                     // Firmware Version
   as::DeviceType::MotionDetector, // Device Type
@@ -174,16 +176,6 @@ void setup () {
   }
   DPRINTLN(F("done"));
   // ------------------------- */
-
-  //DPRINT(8563); DPRINT(": ");
-  //sdev.channel(1).brightnessSensor().bright2mdir(8563);
-  //DPRINT(30000); DPRINT(": ");
-  //sdev.channel(1).brightnessSensor().bright2mdir(30000);
-  //DPRINT(350000); DPRINT(": ");
-  //sdev.channel(1).brightnessSensor().bright2mdir(350000);
-  //DPRINT(8388800); DPRINT(": ");
-  //sdev.channel(1).brightnessSensor().bright2mdir(8388800);
-
 }
 
 void loop() {
@@ -204,6 +196,6 @@ void loop() {
       hal.activity.sleepForever(hal);
     }
     // if nothing to do - go sleep
-    //hal.activity.savePower<Sleep<>>(hal);
+    hal.activity.savePower<Sleep<>>(hal);
   }
 }
