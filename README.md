@@ -6,7 +6,7 @@ Der PIR-Sensor ist streng genommen ein selbstgedrucktes Gehäuse und eine Zusatz
 
 Die Software ist eine Abwandlung vom HM-SEC-MDIR Sketch aus den Beispielen der Asksin Library. 
 
-![GitHub Logo](/Pictures/IMG_20210605_190158.jpg)
+![GitHub Logo](/Pictures/IMG_20210605_190158.png)
 
 
 Ein wesentliches Highlight des PIR Sensors ist der verbaute Helligkeitssensor - Ich nutze den OPT3001 und wandle den gemessenen LUX Wert in einen HM Helligkeitswert.
