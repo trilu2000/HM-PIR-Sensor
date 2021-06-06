@@ -26,3 +26,7 @@ PIR Optische Fresnel-Linse 23.3*23.3*14,7mm (https://de.aliexpress.com/item/1005
 
 Batterie-Federn (https://de.aliexpress.com/item/4001112851052.html)
 
+
+## Forum
+
+https://homematic-forum.de/forum/viewtopic.php?f=76&t=68096
