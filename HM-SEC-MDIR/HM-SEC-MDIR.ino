@@ -13,8 +13,6 @@
 #include <AskSinPP.h>
 #include <LowPower.h>
 
-// OPT3001 support requires ClosedCube_OPT3001 library, please install it first
-// https://www.arduinolibraries.info/libraries/closed-cube-opt3001
 #include <Wire.h>
  #include <sensors/Opt3001.h>
 
