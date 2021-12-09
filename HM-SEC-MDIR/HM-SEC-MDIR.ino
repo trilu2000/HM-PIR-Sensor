@@ -39,9 +39,9 @@ using namespace as;
 
 // define all device properties
 const struct DeviceInfo PROGMEM devinfo = {
-  {0x4A, 0xDE, 0x8E},       // Device ID
-  "HB96868549",           // Device Serial
-//  {0xB4, 0xB0, 0xF},       // Device ID
+  {0xd0, 0xad, 0xad},       // Device ID
+  "HB13675949",             // Device Serial
+//  {0xB4, 0xB0, 0xF},      // Device ID
 //  "HB91706977",           // Device Serial
   {0x00,0x4a},              // Device Model
   0x16,                     // Firmware Version
@@ -124,7 +124,7 @@ public:
 
   void configChanged() {
     DPRINTLN(F("config changed"));
-    if (!_poti_present) return;
+    //if (!_poti_present) return;
     // write the sensitivity settings into the AD5247
     //writeVal(0);
   }
